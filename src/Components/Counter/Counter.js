@@ -11,12 +11,15 @@ export default function Counter({ startCounter }) {
   }, [counter]);
 
   return (
-    <div className="App">
-      <CounterDiv>Countdown: {counter}</CounterDiv>
+    <div>
+      <CounterDiv>{counter}</CounterDiv>
     </div>
   );
 }
 
 const CounterDiv = styled.div`
   color: #e4fde1;
+  font-weight: bold;
+  font-size: 40px;
+  ${(props) => (props.children < 11 ? "color: #f45b69" : "")}
 `;

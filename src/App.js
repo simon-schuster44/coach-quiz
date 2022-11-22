@@ -86,6 +86,7 @@ const Headline = styled.h1`
 const Button = styled.button`
   transition: 0.5s;
   width: 200px;
+  cursor: pointer;
   height: 100px;
   position: absolute;
   top: 30%;

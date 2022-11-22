@@ -70,3 +70,7 @@
   opacity: 0;
   transition: 2s;
 }
+
+button {
+  cursor: pointer;
+}
