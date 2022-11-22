@@ -32,13 +32,19 @@ export const data = [
 
   {
     id: 6,
+    frage: "Welcher Fisch ist aktuell auf Bewährung draußen?",
+    antwort: "Max",
+  },
+
+  {
+    id: 7,
     frage:
       "Welcher Fisch hat das Postleitzahl-System so im Kopf, dass er anhand einer PLZ direkt weiß, wo ein Ort ungefähr liegt?",
     antwort: "Robert",
   },
 
   {
-    id: 7,
+    id: 8,
     frage: "IHR HABT ES ÜBERSTANDEN!",
     antwort: "",
   },
