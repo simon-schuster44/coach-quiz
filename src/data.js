@@ -42,9 +42,15 @@ export const data = [
       "Welcher Fisch hat das Postleitzahl-System so im Kopf, dass er anhand einer PLZ direkt weiß, wo ein Ort ungefähr liegt?",
     antwort: "Robert",
   },
-
   {
     id: 8,
+    frage:
+      "Welcher Fisch hat bei einer Familienfeier vom Opa der Partnerin ungefragt eine Gurke in den Mund gesteckt bekommen?",
+    antwort: "Leon",
+  },
+
+  {
+    id: 9,
     frage: "IHR HABT ES ÜBERSTANDEN!",
     antwort: "",
   },
