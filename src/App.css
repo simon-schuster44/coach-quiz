@@ -4,7 +4,7 @@
 }
 .App span {
   margin-left: 10px;
-  transition: 1s;
+  transition: 0.5s cubic-bezier(0.17, 0.11, 0.2, 1.5);
 }
 
 .hideText {
