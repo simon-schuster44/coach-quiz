@@ -40,22 +40,27 @@ export const data = [
     frage: "Welcher Fisch hat früher mal im Zirkus gearbeitet?",
     antwort: "Marcos",
   },
-
   {
     id: 8,
+    frage:
+      "Welcher Fisch kann bis zu drei Minuten unter Wasser die Luft anhalten??",
+    antwort: "Melih",
+  },
+  {
+    id: 9,
     frage:
       "Welcher Fisch hat das Postleitzahl-System so im Kopf, dass er anhand einer PLZ direkt weiß, wo ein Ort ungefähr liegt?",
     antwort: "Robert",
   },
   {
-    id: 9,
+    id: 10,
     frage:
       "Welcher Fisch hat bei einer Familienfeier vom Opa der Partnerin ungefragt eine Gurke in den Mund gesteckt bekommen?",
     antwort: "Leon",
   },
 
   {
-    id: 10,
+    id: 11,
     frage: "IHR HABT ES ÜBERSTANDEN!",
     antwort: "",
   },
