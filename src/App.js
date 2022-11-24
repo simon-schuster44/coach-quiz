@@ -5,10 +5,18 @@ import { useState } from "react";
 
 function App() {
   const [questionId, setQuestionId] = useState(0);
+  const [animate, setAnimate] = useState(0);
   return (
-    <div className="App">
-      <Headline>DAS GROSSE FISCHE-QUIZ DER OBSKUREN INFORMATIONEN</Headline>
+    <div onClick={() => setAnimate(animate + 1)} className="App">
+      <Headline>
+        <span className={animate > 0 ? "" : "hideText"}>DAS GROSSE </span>
+        {"      "}
+        <span className={animate > 1 ? "" : "hideText"}> FISCHE-QUIZ</span>
+        <span className={animate > 2 ? "" : "hideText"}>DER OBSKUREN</span>
+        <span className={animate > 3 ? "" : "hideText"}>INFORMATIONEN</span>
+      </Headline>
       <Button
+        className={animate > 4 ? "" : "hideText"}
         questionId={questionId}
         onClick={() => setQuestionId(questionId + 1)}
       >
@@ -16,6 +24,7 @@ function App() {
       </Button>
 
       <TextContainer
+        className={animate > 4 ? "" : "hideText"}
         left="15%"
         top="200px"
         rotate="-25deg"
@@ -24,6 +33,7 @@ function App() {
         Wow!
       </TextContainer>
       <TextContainer
+        className={animate > 4 ? "" : "hideText"}
         top="60%"
         left="20%"
         rotate="-8deg"
@@ -32,6 +42,7 @@ function App() {
         It's real!
       </TextContainer>
       <TextContainer
+        className={animate > 4 ? "" : "hideText"}
         top="60%"
         left="70%"
         rotate="-15deg"
@@ -40,6 +51,7 @@ function App() {
         Super!
       </TextContainer>
       <TextContainer
+        className={animate > 4 ? "" : "hideText"}
         top="150px"
         left="75%"
         rotate="10deg"
@@ -47,13 +59,26 @@ function App() {
       >
         Amazing!
       </TextContainer>
-      <TextContainer top="80%" left="40%" rotate="5deg" questionId={questionId}>
+      <TextContainer
+        className={animate > 4 ? "" : "hideText"}
+        top="80%"
+        left="40%"
+        rotate="5deg"
+        questionId={questionId}
+      >
         NEW!
       </TextContainer>
-      <TextContainer top="80%" left="85%" rotate="5deg" questionId={questionId}>
+      <TextContainer
+        className={animate > 4 ? "" : "hideText"}
+        top="80%"
+        left="85%"
+        rotate="5deg"
+        questionId={questionId}
+      >
         OMG!
       </TextContainer>
       <TextContainer
+        className={animate > 4 ? "" : "hideText"}
         top="87%"
         left="10%"
         rotate="-3deg"

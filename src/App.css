@@ -2,6 +2,15 @@
   text-align: center;
   position: relative;
 }
+.App span {
+  margin-left: 10px;
+  transition: 1s;
+}
+
+.hideText {
+  opacity: 0;
+  transform: scaleX(1.5) scaleY(1.5);
+}
 
 .App-logo {
   height: 40vmin;
