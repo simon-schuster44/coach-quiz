@@ -43,7 +43,7 @@ export const data = [
   {
     id: 8,
     frage:
-      "Welcher Fisch kann bis zu drei Minuten unter Wasser die Luft anhalten??",
+      "Welcher Fisch kann bis zu drei Minuten unter Wasser die Luft anhalten?",
     antwort: "Melih",
   },
   {
